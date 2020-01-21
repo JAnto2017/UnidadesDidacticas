@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UnidadesDidacticas</string>
+    <string name="introducci_n">Introducción</string>
+    <string name="_1_identificaci_n">1.- Identificación</string>
+    <string name="_2_datos_t_cnicos">2.- Datos técnicos</string>
+    <string name="_3_fundamentaci_n_curricular">3.- Fundamentación Curricular</string>
+    <string name="_4_fundamentaci_n_metodol_gica">4.- Fundamentación metodológica</string>
+    <string name="modelos_de_ense_anza">Modelos de enseñanza</string>
+    <string name="fundamentos_metodol_gicos">Fundamentos metodológicos</string>
+    <string name="secuencia_de_actividades">Secuencia de actividades</string>
+    <string name="regresar">REGRESAR</string>
+</resources>

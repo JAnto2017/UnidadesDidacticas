@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecuenciaActividades_43">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EEC8AA"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtv1v9"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="4.3.- SECUENCIA DE ACTIVIDADES"
+                android:textAlignment="center"
+                android:textColor="#6A1B9A"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txtv2v9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La secuencia de actividades que integra una UD o SA debe organizarse en función del aprendizaje que pretendemos conseguir, siguiendo una secuencia coherente que culmine en la propuesta de una tarea final."
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv3v9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Es conveniente, presentar de manera general la descripción de la tarea final como la del proceso necesario para que alumnado y profesorado puedan desarrollarla, describiendo la actividad de forma detallada."
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv4v9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Las actividades han de ser varidas, contemplar los distintos niveles de dominio de los procesos cognitivos y estar graduadas según su complejidad. Siguiendo los principios fundamentales descritos por David Merrill (2009), siguiendo los pasos:"
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv5v9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) Crear y describir con detalle la experiencia de aprendizaje final y los desempeños del alumnado - tarea, proyecto, problema, etc (centralidad de la tarea)"
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv6v9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2) Partir de los conocimientos reales del alumno incluyendo actividades o situaciones significativas que sirvan para orientarlos hacia los nuevos aprendizajes (activación)"
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv7v9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3) Proporcionar modelos de conceptos y procesos mediante recursos adecuados e instrucciones claras (demostración)"
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv8v9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4) Programar actividades suficientes para que el alumnado domine rutinas (aplicación controlada) y ensaye procesos más complejos (aplicación situada en el contexto de la tarea propuesta)"
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv9v9"
+                android:layout_width="match_parent"
+                android:layout_height="216dp"
+                android:text="Programar actividades de reflexión sobre el qué y el cómo se ha aprendido (metacognición) y actividades que permitan demostrar la adquisición efectiva del aprendizaje (integración). En este momento de la secuencia puede plantearse actividades de autoevaluación y coevaluación."
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn1v9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#AD1457"
+                android:onClick="back_II_v43"
+                android:text="Regresar" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

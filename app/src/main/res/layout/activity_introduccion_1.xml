@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Introduccion_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F1C5A0"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtv1v1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="INTRODUCCIÓN"
+            android:textAlignment="center"
+            android:textColor="#AD1457"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtv2v1"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:text="En una UD o SA competencial se concretan y evalúan las experiencias de aprendizaje. El docente diseña UD o SA con tareas útiles, situadas en contextos significativos que le supongan retos, implicando diversos recursos que potencia el desarrollo de proceso cognitivos, emocionales y psicomotrices. Favoreciendo diversos tipos de agrupamientos, con una metodología que contribuya al éxito de los aprendizajes fomentando la motivación, facilitando el proceso."
+            android:textColor="#283593"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtv3v1"
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:text="El diseño de nuestras UD o SA deben tener como referencia uno o varios Criterios de Evaluación CrEv, que nos darán las claves y a través de los cuales evaluaremos el logro de los aprendizajes y el grado de desarrollo de las competencias vinculadas a los mismos."
+            android:textColor="#283593"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn1v1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#AD1457"
+            android:onClick="back_1"
+            android:text="Regresar" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

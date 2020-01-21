@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FundamentacionCurricular_3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E0B0C6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtv1v5"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="3.- FUNDAMENTACIÓN CURRICULAR"
+            android:textAlignment="center"
+            android:textColor="#4527A0"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtv2v5"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:text="La fundamentación curricular exige hacer referencia y relacionar los distintos elementos del currículo: objetivos de aprendizaje, competencias, criterios de evaluación y contenidos."
+            android:textColor="#1565C0"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtv3v5"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:text="1.1. Tomando como referencia los CrEv y las rúbricas seleccionados para la UD o SA, concretamos los objetivos de aprendizaje propios que se persiguen."
+            android:textColor="#1565C0"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtv4v5"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:text="1.2. A partir de los mismos se harían explícitos los contenidos a los que hacen referencia y que estarían incluidos en el diseño."
+            android:textColor="#1565C0"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtv5v5"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:text="1.3. La relación con las competencias está establecida, en los CrEv o en las Rúbricas. No obstante, podría justificarse dicha vinculación si así se considera conveniente."
+            android:textColor="#1565C0"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn1v5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#AD1457"
+            android:onClick="back_4"
+            android:text="Regresar" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModelosEnsenianza_41">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D8F0C8"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtv1v7"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:text="4.2.- MODELOS DE ENSEÑANZA"
+                android:textAlignment="center"
+                android:textColor="#6A1B9A"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txtv2v7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enseñanza no directiva: el alumnado es libre para explorar problemas, decidir la respuesta y tomar decisiones, según el criterio personal. El profesorado no interviene."
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv3v7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enseñanza Directiva: entrena habilidades y destrezas, se muestra el procedimiento, se realiza una práctica guiada y después una práctica autónoma."
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv4v7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Investigación Grupal: búsqueda de información en grupo, siendo lo más importante la interacción alumnado y la construcción colaborativa del conocimiento."
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv5v7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indagación Científica: aprender ciencia haciendo ciencia, de forma guiada (pregunta-hipótesis-experimentación) o búsqueda de información-resultados-conclusiones."
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv6v7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Memorístico: consiste en retener y luego recuperar información que no tiene que ser comprendida. Requiere enseñar técnicas específicas."
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv7v7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deductivo: partiendo de categorías y conceptos generales, el alumnado debe identificar los ejemplos concretos que se le suministran."
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv8v7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Expositivo: el profesorado suministra mucha información, organizada y explicada. Aplicable a temas amplios y complejos."
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv9v7"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:text="Investigación Guiada: realizando búsqueda de información en cualquier fuente, sin tener que partir de una hipótesis, pero sí de un tema a investigar."
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn1v7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#AD1457"
+                android:onClick="back_II"
+                android:text="Regresar" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

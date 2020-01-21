@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Identificacion_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F3F3BC"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtv1v3"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="1.- IDENTIFICACIÓN"
+            android:textAlignment="center"
+            android:textColor="#4527A0"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtv2v3"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:text="Se justifica y razona el sentido de los aprendizajes haciendo explícitas las intenciones de los mismos, aclarando su finalidad en relación con el desarrollo del currículo y situándolos en referencia a la contextualización recogida en la programación didáctica"
+            android:textColor="#1565C0"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtv3v3"
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            android:text="Además las UD o SA debe situarse dentro de los proyectos y planes que el centro desarrolle, o vincularse a algunos de ellos, y que ayuden a explicar los aprendizajes que el alumnado debe alcanzar."
+            android:textColor="#1565C0"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn1v3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#AD1457"
+            android:onClick="back_2"
+            android:text="Regresar" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

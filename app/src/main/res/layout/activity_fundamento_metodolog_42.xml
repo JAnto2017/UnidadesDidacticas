@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FundamentoMetodolog_42">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtv1v8"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:text="4.2.- FUNDAMENTOS METODOLÓGICOS"
+                android:textAlignment="center"
+                android:textColor="#6A1B9A"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txtv2v8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='Conseguir con los alumnos los objetivos de aprendizaje (éxito de UD ó SA) , depende de la metodología. El enfoque competencial de la enseñanza y del aprendizaje propone metodologías activas e interactivas "el alumno aprende haciendo" y/o "aplicando conocimientos" sobre situaciones-problemas significativos.'
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv3v8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Las metodologías seleccionadas deberán ser adecuadas al enfoque competencial de la enseñanza y el aprendizaje y guardar coherencia con el diseño. Podiendo especial interés en que el alumno desarrolle aprendizajes por sí mismos fomentando el uso de las TIC, trabajo colaborativo y atención a la diversidad. Las premisas son:"
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv4v8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1) Las competencias son un aprendizaje complejo que no se aprende, se adquiere, en un proceso largo y en un entorno rico de experiencias e intenciones."
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv5v8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2) Una persona es competente cuando la vemos desenvolverse en una situación de problema/reto, aplicando un conocimiento adquirido (saber hacer) y manteniendo a la vez una conducta adecuada al reto (sabe ser)"
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtv6v8"
+                android:layout_width="match_parent"
+                android:layout_height="211dp"
+                android:text="3) Para que una persona adquiera una sola Competencia, es necesario que participe en un proceso continuo que incluya una variada muestra de actividades cognitivas y conductuales, enfrentándose a experiencias individuales y sociales que tengan una significación emocional en un entorno ético y no excluyente."
+                android:textColor="#1565C0"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn1v8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#AD1457"
+                android:onClick="back_II"
+                android:text="Regresar"
+                android:textColor="#1D0C13" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
