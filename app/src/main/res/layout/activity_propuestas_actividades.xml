@@ -6,4 +6,122 @@
     android:layout_height="match_parent"
     tools:context=".PropuestasActividades">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0DDBC"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PROPUESTA DE APARTADOS EN EL DISEÑO DE LAS DISTINTAS ACTIVIDADES"
+                android:textAlignment="center"
+                android:textColor="#620999"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="1. Identificación"
+                android:textColor="#07574D"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Título y Descripción. Se expone brevemente los pasos a seguir en la actividad, teniendo en cuenta el desempeño del alumnado y del  profesorado."
+                android:textColor="#283593" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="2. Datos Técnicos"
+                android:textColor="#07574D"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CrEv. Todas las actividades que integran una UD o SA no tienen por qué ser evaluadas. Las que diseñemos para los procesos de activación o para iniciar el modelaje no tendrían que tener, en principio, asociada una evaluación pues todavía no se han adquirido los aprendizajes. Por tanto, a estas actividades no asociaremos ningún CrEv. En las actividades en las que trabajemos productos en los que se puedan observar los nuevos aprendizajes del alumnado, seleccionaremos el o los CrEv adecuados a ellos."
+                android:textColor="#283593" />
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Instrumentos de Evaluación. El producto es todo lo que elabora el alumnado y es susceptible de observar el nivel de logro de los aprendizajes que se persiguen. Este producto se convierte en instrumento de evaluación al vincularlo a un criterio."
+                android:textColor="#283593" />
+
+            <TextView
+                android:id="@+id/txt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agrupamientos. Seleccionaremos los agrupamientos de cada actividad entre los siguientes: Grupos Homogéneos, el grupo se forma en un momento dado a partir de intereses y características comunes de sus miembros para afrontar una situación problema o demanda; Grupos Heterogéneos, el grupo se forma en un momento dado con personas que tienen perfiles características e intereses distintos para afrontar una situación problema o demanda; Grupos de Expertos, el grupo se forma con miembros que tienen un grado general de dominio sobre temas o cuestiones concretas para profundizar más; Gran Grupo, el grupo-aula completo; Grupos fijos. grupos que se mantienen durante un tiempo más dilatado para afrontar distintos tipos de problemas o demandas; Equipos Móviles o Flexibles, se configuran grupos en los que los miembros van variando para responder a necesidades de individuos concretos; Trabajo Individual, el individuo afronta las situaciones-problemas sin ayuda de otro; Grupos Interactivos, intervienen otras personas (familiares, profesionales de otras ramas, no docentes) que con sus experiencias y conocimientos contribuyen a los aprendizajes y mejora del clima escolar. Colaboran con funciones muy concretas con los docentes y organización del centro en torno al proyecto educativo."
+                android:textColor="#283593" />
+
+            <TextView
+                android:id="@+id/txt8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sesiones. Especificaremos el número de sesiones que se invertirán en la realización de cada actividad."
+                android:textColor="#283593" />
+
+            <TextView
+                android:id="@+id/txt9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recursos. Debemos hacer constar todos los recursos utilizados en las distintas actividades para que se lleven a cabo los aprendizajes esperados. Los recursos también pueden ser generados por el propio alumnado."
+                android:textColor="#283593" />
+
+            <TextView
+                android:id="@+id/txt10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Espacios. Señalar los escenarios de aprendizaje idóneos para la puesta en práctica de las actividades dando coherencia a las metodologías, los tiempos y los objetivos que se pretenden alcanzar."
+                android:textColor="#283593" />
+
+            <TextView
+                android:id="@+id/txt11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Observaciones. En este apartado se señalará cualquiera otra información sobre el diseño necesario para su implementación posterior."
+                android:textColor="#283593" />
+
+            <TextView
+                android:id="@+id/txt12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="3. Fuentes"
+                android:textColor="#07574D"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/describiremos_las_fuentes_consultadas_y_utilizadas_en_el_dise_o_de_la_ud_o_sa_en_la_revista_digital_sit_ate_encontrar_n_numerosas_ud_o_sa_elaboradas_por_el_profesorado"
+                android:textColor="#283593" />
+
+            <Button
+                android:id="@+id/btn1v10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B12F68"
+                android:onClick="Retornar_II"
+                android:text="@string/regresar" />
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -36,4 +36,10 @@ public class FundamentaMetodo_4 extends AppCompatActivity {
         Intent i = new Intent(this,SecuenciaActividades_43.class);
         startActivity(i);
     }
+
+    //---------------------------------------------------------------------------------------------- VIEW PROPUESTA ACTIVIDADES
+    public void goCuarta_II (View v){
+        Intent i = new Intent(this,PropuestasActividades.class);
+        startActivity(i);
+    }
 }

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SecuenciaActividades_43"></activity>
+        <activity android:name=".PropuestasActividades"></activity>
+        <activity android:name=".SecuenciaActividades_43" />
         <activity android:name=".FundamentoMetodolog_42" />
         <activity android:name=".ModelosEnsenianza_41" />
         <activity android:name=".FundamentaMetodo_4" />
